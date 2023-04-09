@@ -71,12 +71,17 @@ const crearArticulo = async (req, res) => {
     try {
 
         const articuloData=nuevoArticulo.save()
+
         if(!articuloData){
+
             return res.status(404)
         }else{
             return res.status(201).json({
+
             ok:true,
+            
             msg:"articulo creado",
+
             data:articuloData
         })
         }

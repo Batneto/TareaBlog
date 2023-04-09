@@ -17,7 +17,6 @@ const ArticuloSchema=new Schema({
      },
      image:{
         type:String,
-        
     }
 
 })

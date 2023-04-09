@@ -24,7 +24,6 @@ const getAdmin = async (req, res) => {
 }
 
 
-
 const crearAdmin = async (req, res) => {
 
 
